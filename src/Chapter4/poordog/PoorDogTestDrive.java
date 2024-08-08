@@ -1,16 +1,9 @@
-package Chapter4.gooddog;
+package Chapter4.poordog;
 
-public class GoodDogTestDrive{
+public class PoorDogTestDrive {
     public static void main(String[] args){
-        GoodDog one = new GoodDog();
-        one.setSize(70);
-        GoodDog two = new GoodDog();
-        two.setSize(8);
-
-        System.out.println("Dog one: " + one.getSize());
-        System.out.println("Dog two: " + two.getSize());
-        one.bark();
-        two.bark();
-
+        PoorDog one = new PoorDog();
+        System.out.println("Dog size is: " + one.getSize());
+        System.out.println("Dog name is: " + one.getName());
 }
 }

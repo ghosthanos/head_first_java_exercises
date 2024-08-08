@@ -1,4 +1,4 @@
-package Chapter12.exceptions;
+package Chapter13.exceptions;
 
 public class TestExceptions {
     public static void main(String[] args) {
